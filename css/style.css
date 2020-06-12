@@ -281,6 +281,7 @@ p {
    .header__burger {
     display: block;
     position: relative;
+    bottom: 34px;
     width: 30px;
     height: 20px;
     float: right;
@@ -367,6 +368,10 @@ p {
 
 @media(max-width: 420px) {
 
+  .header__burger{
+    bottom: 34px;
+  }
+
 .left {
   padding-left: 0;
 }
@@ -380,5 +385,33 @@ p {
 .intro__description {
     padding: 20px 0px 10px 0px;
 }
+.footer__credits {
+  display: block;
+}
+.footer__icon {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer__credits {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.footer__copyright {
+  margin-bottom: 10px;
+}
+
+.servizi__item {
+  width: 100%;
+  padding: 10px;
+
+}
+.servizi__photo {
+  width: 85%;
+}
+.per__clienti  {
+  width: 100%;
+}
+
 
  }

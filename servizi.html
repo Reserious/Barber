@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="css/style.css">
+	
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/b8d74811b5.js" crossorigin="anonymous"></script>
 	<title>G ROOM ING Rome</title>
 </head>
@@ -12,14 +13,19 @@
 
 	<header class="header">
 
-		<div class="header__inner">
-			<div>
-			<div class="header__logo">
-				<a href="index.html" class="logo__img"><img src="img/logo.PNG"></a>
-			</div>
-			</div>
-		<nav class="nav">
-			<a href="#" class="nav__link">Servizi</a>
+		<!-- <div class="header__inner"> -->
+		<div class="container">
+
+			<div class="header__body">
+
+				<a  class="header__logo" href="index.html" ><img src="img/logo.PNG" alt=""></a>
+
+				<div class="header__burger">
+					<span></span>
+				</div>
+
+				<nav class="nav">
+			<a href="servizi.html" class="nav__link">Servizi</a>
 			<a href="#" class="nav__link">GRhelpyou</a>
 			<a href="#" class="nav__link">Academia</a>
 			<a href="#" class="nav__link">Contatti</a>
@@ -27,14 +33,20 @@
 
 
 		</nav>
-	</div>
 
+	 
+
+			</div>
+		
+	<!-- </div> -->
+  </div>	
 		
 	</header>
 
 	<div class="servizi">
+		<div class="container">
 		
-		<div class="servizi__item">
+		<div class="servizi__item" onclick="">
 			<img class="servizi__photo" src="img/1.jpg">
 			<div class="servizi__title"><h3>Taglio capelli 45 min</h3></div>
 			<div class="servizi__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -43,7 +55,7 @@
 			</div>
 		</div>
 
-		<div class="servizi__item">
+		<div class="servizi__item"onclick="">
 			<img class="servizi__photo" src="img/1.jpg">
 			<div class="servizi__title"><h3>Taglio capelli 45 min</h3></div>
 			<div class="servizi__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -52,7 +64,7 @@
 			</div>
 		</div>
 
-		<div class="servizi__item">
+		<div class="servizi__item"onclick="">
 			<img class="servizi__photo" src="img/1.jpg">
 			<div class="servizi__title"><h3>Taglio capelli 45 min</h3></div>
 			<div class="servizi__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -60,7 +72,7 @@
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </div>
 		</div>
 		
-		<div class="per__clienti">
+		<div class="per__clienti"onclick="">
 			 <img class="servizi__photo" src="img/1C236BCA-C865-43B7-B1A4-94B51164AAB6.jpg">
 			<div class="servizi__title"><h3>Taglio capelli 45 min</h3></div>
 			<div class="servizi__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -69,7 +81,7 @@
 			</div>
 
 		</div>
-			<div class="per__clienti">
+			<div class="per__clienti"onclick="">
 			 <img class="servizi__photo" src="img/9F536DC6-091B-4E4E-8B0C-9250A61339C9.jpg">
 			<div class="servizi__title"><h3>Taglio capelli 45 min</h3></div>
 			<div class="servizi__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -78,7 +90,7 @@
 			</div>
 
 		</div>
-			<div class="per__clienti">
+			<div class="per__clienti"onclick="">
 			 <img class="servizi__photo" src="img/5D975538-CDC3-4C9B-B07D-0CB2ED06289E.jpg">
 			<div class="servizi__title"><h3>Taglio capelli 45 min</h3></div>
 			<div class="servizi__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -87,7 +99,7 @@
 			</div>
 
 		</div>
-			<div class="per__clienti">
+			<div class="per__clienti"onclick="">
 			 <img class="servizi__photo" src="img/5AFD7C71-DC00-4F85-ADC9-1E3667CB0609.jpg">
 			<div class="servizi__title"><h3>Taglio capelli 45 min</h3></div>
 			<div class="servizi__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -98,12 +110,13 @@
 		</div>
 	
 
-
+ </div>
 	</div>
 
 	
 
 	<footer class="footer">
+		<div class="container">
           <div class="footer__logo">
           	<a href="#"><img src="img/logo.PNG"></a>
           </div>
@@ -123,7 +136,8 @@
           	© 2020 G ROOM ING Rome. All rights reserved.
           </div>
           
-		
+		</div>
+
 	</footer>
      
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script> 
