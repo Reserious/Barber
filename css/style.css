@@ -471,7 +471,7 @@ p {
    }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 445px) {
 
   .header__burger{
     bottom: 34px;
