@@ -130,7 +130,7 @@ p {
 /*INTRO */
 
 .intro__text {
-  margin-top: 130px;
+  margin-top: 200px;
   font-size: 40px;
 }
 .intro__description {
@@ -162,7 +162,7 @@ p {
 .btn {
   font-size: 13px;
   text-transform: uppercase;
-  
+  cursor: pointer;
   color: #ACACAC;
   background-color: transparent;
   border: none;
@@ -174,11 +174,24 @@ p {
   color: #000000;
 
 }
+.info__suptitle {
+      margin-top: 35px;
+      font-size: 14px;
+}
+.mail,
+.tel {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+.contact-row {
+  margin-top: 25px;
+}
 
 /*FOOTER*/
 .footer {
 
-  margin-top: 170px;
+  margin-top: 125px;
 }
 .footer__logo img {
   width: 110px;
@@ -264,6 +277,97 @@ p {
 .servizi__title,
 .servizi__text {
   margin-top: 20px;
+}
+
+/*CONTATTI*/
+.contatti {
+  margin-top: 200px;
+
+}
+.contactus {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.contact__title {
+  font-size: 25px;
+  text-align: center;
+  margin:50px 0;
+}
+.form {
+  width: 45%;
+}
+.form__input input {
+  transition: border-color .2s linear;
+  padding:5px;
+  border: 1px solid #ACACAC;
+  outline: none;
+  width: 50%;
+}
+.form__input input:hover,
+.form__textarea textarea:hover {
+  border-color: #000000;
+}
+.form__textarea textarea {
+  transition: border-color .2s linear;
+  width: 65%;
+  padding: 5px;
+  border: 1px solid #ACACAC;
+  resize: none;
+  height: 120px;
+  outline: none;
+}
+.form__title {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #ACACAC;
+ 
+}
+
+.form__group {
+      margin: 5px 0 15px 0;
+}
+.submit__btn {
+  cursor: pointer;
+  font-size: 13px;
+  text-transform: uppercase;
+  
+  color: #000000 ;
+  background-color: transparent;
+  border:none;
+  
+  text-decoration: none;
+  outline: none;
+  transition: color .3s linear;
+}
+.submit__btn:hover {
+  color:#ACACAC;
+
+}
+.info__title {
+  font-size: 16px;
+  
+}
+.contact__info {
+    padding: 65px 70px;
+    background: #fafafa;
+    max-width: 470px;
+    line-height: 2
+}
+.map {
+  margin-top: 45px;
+}
+.mappa {
+  width: 100%;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+/*ACCADEMIA*/
+
+.accademia {
+  margin-top: 130px;
 }
 
 @media(max-width: 767px) {
@@ -412,6 +516,18 @@ p {
 }
 .per__clienti  {
   width: 100%;
+}
+
+/*CONTATTI*/
+.contatti {
+  margin-top: 100px;
+}
+.contactus {
+      flex-wrap: wrap-reverse;
+}
+.form {
+  width: 100%;
+  margin-top: 20px;
 }
 
 
